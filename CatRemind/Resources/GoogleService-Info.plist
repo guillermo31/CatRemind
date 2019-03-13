@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>330260561624-v8oi03eapvofrpcse07757n6523nctqk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.330260561624-v8oi03eapvofrpcse07757n6523nctqk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBykdlRDGUsbnVKBeQkGRX35TJgNBYbPes</string>
+	<key>GCM_SENDER_ID</key>
+	<string>330260561624</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.guillermoramos.CatRemind</string>
+	<key>PROJECT_ID</key>
+	<string>catremind</string>
+	<key>STORAGE_BUCKET</key>
+	<string>catremind.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:330260561624:ios:aab7aabb2171694b</string>
+	<key>DATABASE_URL</key>
+	<string>https://catremind.firebaseio.com</string>
+</dict>
+</plist>

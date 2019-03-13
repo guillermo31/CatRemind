@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5308C11622395CED00975147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5308C11422395CE900975147 /* GoogleService-Info.plist */; };
+		53734CD42225C7570062C56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53734CD32225C7570062C56F /* AppDelegate.swift */; };
+		53734CD62225C7570062C56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53734CD52225C7570062C56F /* ViewController.swift */; };
+		53734CD92225C7570062C56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53734CD72225C7570062C56F /* Main.storyboard */; };
+		53734CDB2225C75A0062C56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53734CDA2225C75A0062C56F /* Assets.xcassets */; };
+		53734CDE2225C75A0062C56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53734CDC2225C75A0062C56F /* LaunchScreen.storyboard */; };
+		53734CE9222EFF050062C56F /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 53734CE8222EFF050062C56F /* cat.png */; };
+		53734CEC222EFFC90062C56F /* CatFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53734CEB222EFFC90062C56F /* CatFood.swift */; };
+		53734CEE2230B80D0062C56F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53734CED2230B80D0062C56F /* ViewController2.swift */; };
+		84D4A10B24FAABC87B558C49 /* Pods_CatRemind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4507A9F0659D5A98D8918B /* Pods_CatRemind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5308C11422395CE900975147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53734CD02225C7570062C56F /* CatRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53734CD32225C7570062C56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53734CD52225C7570062C56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53734CD82225C7570062C56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53734CDA2225C75A0062C56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53734CDD2225C75A0062C56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53734CDF2225C75A0062C56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53734CE8222EFF050062C56F /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		53734CEB222EFFC90062C56F /* CatFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFood.swift; sourceTree = "<group>"; };
+		53734CED2230B80D0062C56F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		78AD019A730847AE46948735 /* Pods-CatRemind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatRemind.debug.xcconfig"; path = "Target Support Files/Pods-CatRemind/Pods-CatRemind.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4507A9F0659D5A98D8918B /* Pods_CatRemind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatRemind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D62B8C975F426818086964 /* Pods-CatRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatRemind.release.xcconfig"; path = "Target Support Files/Pods-CatRemind/Pods-CatRemind.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53734CCD2225C7570062C56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4A10B24FAABC87B558C49 /* Pods_CatRemind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB3E683DDB614D88E2BB212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4507A9F0659D5A98D8918B /* Pods_CatRemind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53734CC72225C7560062C56F = {
+			isa = PBXGroup;
+			children = (
+				53734CD22225C7570062C56F /* CatRemind */,
+				53734CD12225C7570062C56F /* Products */,
+				AB8EC7EA6E40DF4C4307B331 /* Pods */,
+				0EB3E683DDB614D88E2BB212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53734CD12225C7570062C56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53734CD02225C7570062C56F /* CatRemind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53734CD22225C7570062C56F /* CatRemind */ = {
+			isa = PBXGroup;
+			children = (
+				53734CEA222EFF840062C56F /* Model */,
+				53734CE52225C7950062C56F /* Resources */,
+				53734CE62225C79D0062C56F /* Controller */,
+				53734CE72225C7A60062C56F /* View */,
+			);
+			path = CatRemind;
+			sourceTree = "<group>";
+		};
+		53734CE52225C7950062C56F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5308C11422395CE900975147 /* GoogleService-Info.plist */,
+				53734CE8222EFF050062C56F /* cat.png */,
+				53734CD32225C7570062C56F /* AppDelegate.swift */,
+				53734CDA2225C75A0062C56F /* Assets.xcassets */,
+				53734CDF2225C75A0062C56F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53734CE62225C79D0062C56F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53734CD52225C7570062C56F /* ViewController.swift */,
+				53734CED2230B80D0062C56F /* ViewController2.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		53734CE72225C7A60062C56F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53734CD72225C7570062C56F /* Main.storyboard */,
+				53734CDC2225C75A0062C56F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53734CEA222EFF840062C56F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53734CEB222EFFC90062C56F /* CatFood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB8EC7EA6E40DF4C4307B331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78AD019A730847AE46948735 /* Pods-CatRemind.debug.xcconfig */,
+				B2D62B8C975F426818086964 /* Pods-CatRemind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53734CCF2225C7570062C56F /* CatRemind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53734CE22225C75A0062C56F /* Build configuration list for PBXNativeTarget "CatRemind" */;
+			buildPhases = (
+				CA5DCFFB1A4D0F4F107BA758 /* [CP] Check Pods Manifest.lock */,
+				53734CCC2225C7570062C56F /* Sources */,
+				53734CCD2225C7570062C56F /* Frameworks */,
+				53734CCE2225C7570062C56F /* Resources */,
+				DD1D42A81960C05286EE2DF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatRemind;
+			productName = CatRemind;
+			productReference = 53734CD02225C7570062C56F /* CatRemind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53734CC82225C7560062C56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Guillermo Ramos ";
+				TargetAttributes = {
+					53734CCF2225C7570062C56F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 53734CCB2225C7560062C56F /* Build configuration list for PBXProject "CatRemind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53734CC72225C7560062C56F;
+			productRefGroup = 53734CD12225C7570062C56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53734CCF2225C7570062C56F /* CatRemind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53734CCE2225C7570062C56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53734CDE2225C75A0062C56F /* LaunchScreen.storyboard in Resources */,
+				53734CDB2225C75A0062C56F /* Assets.xcassets in Resources */,
+				5308C11622395CED00975147 /* GoogleService-Info.plist in Resources */,
+				53734CE9222EFF050062C56F /* cat.png in Resources */,
+				53734CD92225C7570062C56F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA5DCFFB1A4D0F4F107BA758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatRemind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1D42A81960C05286EE2DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatRemind/Pods-CatRemind-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatRemind/Pods-CatRemind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53734CCC2225C7570062C56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53734CD62225C7570062C56F /* ViewController.swift in Sources */,
+				53734CEE2230B80D0062C56F /* ViewController2.swift in Sources */,
+				53734CEC222EFFC90062C56F /* CatFood.swift in Sources */,
+				53734CD42225C7570062C56F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53734CD72225C7570062C56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53734CD82225C7570062C56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53734CDC2225C75A0062C56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53734CDD2225C75A0062C56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53734CE02225C75A0062C56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53734CE12225C75A0062C56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53734CE32225C75A0062C56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78AD019A730847AE46948735 /* Pods-CatRemind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72A3LW7FBX;
+				INFOPLIST_FILE = "$(SRCROOT)/CatRemind/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillermoramos.CatRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53734CE42225C75A0062C56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D62B8C975F426818086964 /* Pods-CatRemind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72A3LW7FBX;
+				INFOPLIST_FILE = "$(SRCROOT)/CatRemind/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillermoramos.CatRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53734CCB2225C7560062C56F /* Build configuration list for PBXProject "CatRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53734CE02225C75A0062C56F /* Debug */,
+				53734CE12225C75A0062C56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53734CE22225C75A0062C56F /* Build configuration list for PBXNativeTarget "CatRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53734CE32225C75A0062C56F /* Debug */,
+				53734CE42225C75A0062C56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53734CC82225C7560062C56F /* Project object */;
+}
